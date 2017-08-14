@@ -4,7 +4,7 @@
   "description": "test-to-connect",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,10 @@
     "body-parser": "^1.17.2",
     "ejs": "^2.5.7",
     "express": "^4.15.4",
-    "mongojs": "^2.4.1"
+    "mongojs": "^2.4.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
   }
 }
